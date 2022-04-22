@@ -12,6 +12,6 @@ use curl instead
 
 peazip -ext2here 
 
-sudo vin /etc/sudoers
+sudo vim /etc/sudoers
 
 deck ALL=(ALL) NOPASSWD:ALL

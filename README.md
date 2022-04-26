@@ -19,3 +19,5 @@ deck ALL=(ALL) NOPASSWD:ALL
 https://gitlab.com/leonstyhre/emulationstation-de/-/blob/master/resources/systems/unix/es_systems.xml
 
 STEAM_COMPAT_MOUNTS=/run/media/mmcblk0p1/ %command%
+
+STEAM_COMPAT_DATA_PATH=~/.proton/ ~/.steam/steam/steamapps/common/Proton\ 3.7/proton run whatever.exe

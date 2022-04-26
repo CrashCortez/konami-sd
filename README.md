@@ -17,3 +17,5 @@ sudo vim /etc/sudoers
 deck ALL=(ALL) NOPASSWD:ALL
 
 https://gitlab.com/leonstyhre/emulationstation-de/-/blob/master/resources/systems/unix/es_systems.xml
+
+STEAM_COMPAT_MOUNTS=/run/media/mmcblk0p1/ %command%

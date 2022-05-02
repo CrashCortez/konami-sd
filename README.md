@@ -21,3 +21,5 @@ https://gitlab.com/leonstyhre/emulationstation-de/-/blob/master/resources/system
 STEAM_COMPAT_MOUNTS=/run/media/mmcblk0p1/ %command%
 
 STEAM_COMPAT_DATA_PATH=~/.proton/ ~/.steam/steam/steamapps/common/Proton\ 3.7/proton run whatever.exe
+
+ln -s /run/media/mmcblk0p1/Emulation/Downloaded_media /home/deck/.emulationstation/Downloaded_media

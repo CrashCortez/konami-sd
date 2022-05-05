@@ -20,8 +20,9 @@ https://gitlab.com/leonstyhre/emulationstation-de/-/blob/master/resources/system
 
 STEAM_COMPAT_MOUNTS=/run/media/mmcblk0p1/ %command%
 
+```shell
 "STEAM_COMPAT_CLIENT_INSTALL_PATH=~/.steam/steam/steamapps/common/Proton\ 7.0/ STEAM_COMPAT_DATA_PATH=~/.proton/ ~/.steam/steam/steamapps/common/Proton\ 7.0/proton run /full/path/to/program.exe"
-
+```
 
 ```shell
 STEAM_COMPAT_CLIENT_INSTALL_PATH=~/.steam/steam/steamapps/common/Proton\ 7.0/ STEAM_COMPAT_DATA_PATH=~/.proton/ ~/.steam/steam/steamapps/common/Proton\ 7.0/proton run /run/media/mmcblk0p1/Emulation/roms/wiiu/Cemu.exe

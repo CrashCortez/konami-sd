@@ -2,7 +2,7 @@
 #
 #=============================================================================
 #title:         menu.sh
-#description:   Menu which allows multiple items to be selected, for the Controls for RetroPie
+#description:   Menu which allows multiple items to be selected, for the Controls for Steamdeck
 #author:        Crash
 #created:       June 24 2019
 #updated:       Feb 18 2020
@@ -12,7 +12,7 @@
 export NCURSES_NO_UTF8_ACS=1
 #IFS=';'
 #  Welcome
-# dialog --backtitle "Controls MENU" --title "The Controls Menu Utility" \
+# dialog --backtitle "Konami MENU" --title "The Controls Menu Utility" \
 #   --yesno "\nDo you want to proceed?" \
 #    28 110 2>&1 > /dev/tty \
 #    || exit

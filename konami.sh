@@ -88,7 +88,7 @@ function gui_controllertools() {
 function install_bios() {
     if validate_url https://archive.org/download/bios_20220525/bios.zip; then
         cd
-        cd //run/media/mmcblk0p1/Emulation/
+        cd /run/media/mmcblk0p1/Emulation/
         sudo wget -O https://archive.org/download/bios_20220525/bios.zip
 		unzip bios.zip
         echo "---------------"
@@ -264,16 +264,11 @@ function system_reboot() {
 }
 
 function update_menu() {
-    if validate_url https://raw.githubusercontent.com/CrashCortez/RetroMPV/master/control_updater_menu.sh; then
-        #sudo mkdir -p ~/RetroPie/retropiemenu/Controllertools
+    if validate_url https://raw.githubusercontent.com/CrashCortez/konami-sd/main/konami.sh; then
         cd
-        cd "/home/pi/RetroPie/retropiemenu/Controllertools"
-		sudo mv "control_updater_menu.sh" "/home/pi/RetroMPV/bkp/control_updater_menu.sh.bkp"
-		wget "https://raw.githubusercontent.com/CrashCortez/RetroMPV/master/control_updater_menu.sh"
-		chmod 777 "control_updater_menu.sh"
-		#sudo wget -O control_updater_menu.sh https://raw.githubusercontent.com/CrashCortez/RetroMPV/master/control_updater_menu.sh
-        #sudo chmod 775 control_updater_menu.sh
-        #sudo chmod a+x *.sh
+        cd "/run/media/mmcblk0p1/Emulation/roms/ports/"
+		wget "https://raw.githubusercontent.com/CrashCortez/konami-sd/main/konami.sh"
+		chmod 777 "konami.sh"
         echo "---------------"
         echo "|| Success!  ||"
         echo "---------------"
